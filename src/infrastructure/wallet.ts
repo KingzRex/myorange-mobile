@@ -12,7 +12,7 @@
  *
  */
 import multichainWallet from 'multichain-crypto-wallet';
-import {NetworkTypes, OrangeAccount, OrangeWallet} from '@libs/constants';
+import {NetworkTypes, OrangeAccount, OrangeWallet} from '@libs/constants'; 
 import {savePin, getExistingPIN} from './authentication';
 import AesEncryptor from '@rainbow-me/handlers/aesEncryption';
 
